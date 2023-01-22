@@ -1,0 +1,7 @@
+CREATE TABLE clienti ((id,integer,1000,0), (nume,text,128,''), (cont,text,128,''))
+INSERT INTO clienti VALUES (1, "FirstcompanySRL", "RO1234")
+INSERT INTO clienti VALUES (2,"2ndcompanySRL","RO1111")
+INSERT INTO clienti VALUES (3,"3rdcompanySRL", "RO2222")
+INSERT INTO clienti VALUES (4,"NonStopSRL","RO3333")
+INSERT INTO clienti VALUES (5,"Mini","RO4444")
+DISPLAY TABLE clienti
